@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="#000">
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding ="10dp"
+        android:text="* 화면을 두 번 두드리면, 해당 영역이 확대 됩니다."
+        android:textColor="#FFF"
+        android:textSize="12dp"
+        android:textStyle="bold" android:background="#B2CCFF"/>
+	
+	<it.sephiroth.android.library.imagezoom.ImageViewTouch
+        android:id="@+id/imageViewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix" />
+</LinearLayout>

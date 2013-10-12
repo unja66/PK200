@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/tile_back">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PK 노트" android:textSize="24dp" android:textColor="#000" android:background="#FFF"
+        android:layout_marginLeft="40dp" android:layout_marginTop="70dp"
+        android:paddingLeft="10dp" android:paddingTop="10dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="약시 시리즈 02. 유기 노트" android:textSize="16dp" android:textColor="#222" android:background="#FFF"
+        android:layout_marginLeft="40dp" android:layout_marginTop="0dp"
+        android:paddingLeft="30dp" android:paddingBottom="6dp"/>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_centerHorizontal="true"
+    	    android:layout_marginBottom="80dp"
+    	    android:text="KuKung.com" android:background="@drawable/round_back"
+    	    android:textColor="#555" android:textSize="16dp" android:textStyle="bold" 
+    	    android:paddingTop="8dp" android:paddingBottom="6dp" android:paddingLeft="40dp" android:paddingRight="40dp"
+    	    />
+    
+    </RelativeLayout>
+</LinearLayout>
